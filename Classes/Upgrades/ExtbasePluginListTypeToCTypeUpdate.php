@@ -16,8 +16,9 @@ namespace Mediadreams\MdCalendarizeFrontend\Upgrades;
  * The TYPO3 project - inspiring people to share!
  */
 
-use TYPO3\CMS\Install\Attribute\UpgradeWizard;
-use TYPO3\CMS\Install\Updates\AbstractListTypeToCTypeUpdate;
+
+use TYPO3\CMS\Core\Attribute\UpgradeWizard;
+use TYPO3\CMS\Core\Upgrades\AbstractListTypeToCTypeUpdate;
 
 #[UpgradeWizard('mdCalendarizeFrontend_extbasePluginListTypeToCTypeUpdate')]
 final class ExtbasePluginListTypeToCTypeUpdate extends AbstractListTypeToCTypeUpdate
