@@ -25,7 +25,7 @@
         "source": "https://github.com/cdaecke/md_calendarize_frontend"
     },
     "require": {
-		"typo3/cms-core": "^13.4",
+		"typo3/cms-core": "^14.3.3",
 		"lochmueller/calendarize": "^14.0",
 		"georgringer/numbered-pagination": ">=1.0.1,<3.0.0"
     },
