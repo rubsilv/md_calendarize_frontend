@@ -26,7 +26,7 @@
     },
     "require": {
 		"typo3/cms-core": "^14.3.3",
-		"lochmueller/calendarize": "^14.0",
+		"lochmueller/calendarize": "dev-main",
 		"georgringer/numbered-pagination": ">=1.0.1,<3.0.0"
     },
     "autoload": {
