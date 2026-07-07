@@ -9,7 +9,7 @@ plugin.tx_mdcalendarizefrontend_frontend {
   }
 
   persistence {
-    #storagePid = {$mdcalendarizefrontend.persistence.storagePid}
+    storagePid = {$mdcalendarizefrontend.persistence.storagePid}
     #recursive = 1
   }
 

@@ -1,0 +1,30 @@
+categories:
+    mdcalendarizefrontend:
+        label: 'mediadreams/md_calendarize_frontend'
+
+    mdcalendarizefrontend.view:
+        label: 'Templates'
+        parent: mdcalendarizefrontend
+
+    mdcalendarizefrontend.persistence:
+        label: 'Stockage'
+        parent: mdcalendarizefrontend
+
+settings:
+    mdcalendarizefrontend.view.templateRootPath:
+        category: mdcalendarizefrontend.view
+        type: string
+        default: 'EXT:md_calendarize_frontend/Resources/Private/Templates/'
+    mdcalendarizefrontend.view.partialRootPath:
+        category: mdcalendarizefrontend.view
+        type: string
+        default: 'EXT:md_calendarize_frontend/Resources/Private/Partials/'
+    mdcalendarizefrontend.view.layoutRootPath:
+        category: mdcalendarizefrontend.view
+        type: string
+        default: 'EXT:md_calendarize_frontend/Resources/Private/Layouts/'
+
+    mdcalendarizefrontend.peristence.storagePid:
+        category: mdcalendarizefrontend.persistence
+        type: int
+        default:
