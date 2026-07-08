@@ -12,19 +12,23 @@ categories:
 
 settings:
     mdcalendarizefrontend.view.templateRootPath:
+        label: 'Templates'
         category: mdcalendarizefrontend.view
         type: string
         default: 'EXT:md_calendarize_frontend/Resources/Private/Templates/'
     mdcalendarizefrontend.view.partialRootPath:
+        label: 'Partials'
         category: mdcalendarizefrontend.view
         type: string
         default: 'EXT:md_calendarize_frontend/Resources/Private/Partials/'
     mdcalendarizefrontend.view.layoutRootPath:
+        label: 'Layouts'
         category: mdcalendarizefrontend.view
         type: string
         default: 'EXT:md_calendarize_frontend/Resources/Private/Layouts/'
 
     mdcalendarizefrontend.peristence.storagePid:
+        label: 'Dossier de stockage des événements proposés'
         category: mdcalendarizefrontend.persistence
         type: int
-        default:
+        default: 0
